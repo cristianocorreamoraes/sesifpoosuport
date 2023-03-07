@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		/* DECLARAÇÃO DE INSTANCIAS DE OBJETOS */
+		Scanner objetoScanner = new Scanner(System.in);
+		Professor objetoProfessor = new Professor();
+		Disciplina objetoDisciplina = new Disciplina();	
+		Aluno objetoAluno = new Aluno();
+		
+		/* ENTRADA */
+		System.out.println("DIGITE O NOME DO PROFESSOR(A):");
+		objetoProfessor.setNomeProfessor(objetoScanner.next());
+		
+		System.out.println("DIGITE O NOME DO ALUNO(A):");
+		objetoAluno.setNomeAluno(objetoScanner.next());
+		
+		System.out.println("DIGITE A DISCIPLINA:");
+		objetoDisciplina.setNomeDisciplna(objetoScanner.next());
+		
+		/* PROCESSAMENTO */
+		
+		/* SAÍDA */
+		
+
+	}
+
+}

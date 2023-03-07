@@ -1,0 +1,19 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		OperadoresRelacionais objetoOperadoresRealacionais = new OperadoresRelacionais();
+		ComparandoTextos objetoComparandoTextos = new ComparandoTextos();
+		EstruturaDecisaoSimples objetoEstruturaDecisaoSimples = new EstruturaDecisaoSimples();
+		
+		//objetoOperadoresRealacionais.TestesLogicos1();
+		//objetoComparandoTextos.TestesLogicos1();
+		
+		/* ESTRUTURA DE DECISÃO SIMPLES: */
+		objetoEstruturaDecisaoSimples.testeMenor(5, 10);
+		
+		
+	}
+
+}

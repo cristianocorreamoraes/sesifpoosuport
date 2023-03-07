@@ -1,0 +1,51 @@
+
+public class EstruturaDecisaoComposta {
+	
+	/* PRIMEIRA VARIAÇÃO: */
+	public void testeMenorIgual(int valor1, int valor2) {
+		
+		if (valor1 <= valor2) {
+			System.out.println("valor1:" + valor1 + " é menor ou igual (<=) que valor2: " + valor2);
+			System.out.println("");
+		}else {
+			System.out.println("valor1:" + valor1 + " é maior (>) que valor2: " + valor2);
+			System.out.println("");
+		}
+		
+	}
+	
+	public void testeMaiorIgual(int valor1, int valor2) {
+		
+		if (valor1 >= valor2) {
+			System.out.println("valor1:" + valor1 + " é maior ou igual (>=) que valor2: " + valor2);
+			System.out.println("");
+		}else {
+			System.out.println("valor1:" + valor1 + " é menor (<) que valor2: " + valor2);
+			System.out.println("");
+		}
+		
+	}
+	
+	/* SEGUNDA VARIAÇÃO: */
+	public void testeMenor(int valor1, int valor2) {
+		
+		if (valor1 < valor2) {
+			
+			System.out.println("valor1:" + valor1 + " é menor (<) que valor2: " + valor2);
+			System.out.println("");
+			
+		}else if(valor1 == valor2) {
+			
+			System.out.println("valor1:" + valor1 + " é igual (==) a valor2: " + valor2);
+			System.out.println("");
+			
+		}else{
+			
+			System.out.println("valor1:" + valor1 + " é maior (>) que valor2: " + valor2);
+			System.out.println("");
+			
+		}
+		
+	}
+
+}

@@ -1,0 +1,19 @@
+public class ComparandoTextos {
+	
+	String nome1 = "CRISTIANO CORREA DE MORAES";
+	String nome2 = "Carlos DRUMMOND DE ANDRADE";
+	String nome3 = "";
+	
+	public void TestesLogicos1(){
+		
+		boolean resultado;
+		
+		resultado = this.nome1.isEmpty();
+		System.out.println(resultado);
+		
+		resultado = this.nome3.isEmpty();
+		System.out.println(resultado);
+		
+	}
+			
+}

@@ -1,0 +1,23 @@
+public class EstruturaDecisaoTextos {
+	
+	public void testeVazio(String senha) {
+		
+		if(senha.isEmpty()) {
+			System.out.println("A SENHA É OBRIGATÓRIA!");
+		}
+		
+	}
+	
+	public void testeVIgualdade(String senha, String confirmrSenha) {
+		
+		if (!senha.equals(confirmrSenha)) {
+			System.out.println("AS SENHAS DEVEM SER IGUAIS!");
+		}
+				
+	}
+	
+	public void testeTamanho(String senha) {
+		
+	}
+	
+}

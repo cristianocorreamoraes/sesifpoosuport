@@ -1,0 +1,8 @@
+public class EstruturaDecisaoTextos {
+	
+	String senha = "minhaSenha";
+	String confirmacaoSenha = "minhaSenha";
+	
+	
+
+}

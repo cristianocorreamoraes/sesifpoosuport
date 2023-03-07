@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;EstruturaDecisao&apos; to &apos;EstruturaDecisaoSimples&apos;&#x0D;&#x0A;- Original project: &apos;03-ESTRUTURA-DECISAO&apos;&#x0D;&#x0A;- Original element: &apos;EstruturaDecisao&apos;&#x0D;&#x0A;- Renamed element: &apos;EstruturaDecisaoSimples&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;EstruturaDecisao&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{EstruturaDecisao.java[EstruturaDecisao" matchStrategy="1" name="EstruturaDecisaoSimples" qualified="false" references="true" similarDeclarations="false" stamp="1678103685923" textual="false" version="1.0"/>
+</session>
