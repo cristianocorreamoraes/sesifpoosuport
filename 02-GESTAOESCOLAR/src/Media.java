@@ -1,10 +1,10 @@
 public class Media {
+	
 	private float nota1, nota2, nota3, nota4, media;
 	
-	public float calcularMedia() {
+	public void calcularMedia() {
 		
-		media = (nota1 + nota2 + nota3 + nota4) / 4;
-		return media;
+		setMedia((nota1 + nota2 + nota3 + nota4) / 4);
 		
 	}
 	
@@ -38,6 +38,14 @@ public class Media {
 
 	public void setNota4(float nota4) {
 		this.nota4 = nota4;
+	}
+	
+	public float getMedia() {
+		return media;
+	}
+
+	public void setMedia(float media) {
+		this.media = media;
 	}
 	
 }
